@@ -61,7 +61,7 @@ module.exports = function(options) {
       var vinyl = new gutil.File({
         cwd: file.cwd,
         base: file.base,
-        path: file.base + generatedFile
+        path: file.base + '/' + generatedFile
       })
 
       try {
